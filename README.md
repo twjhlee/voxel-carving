@@ -12,16 +12,18 @@ We are given Matricies K containing info about the x and y focal length of the c
 http://ksimek.github.io/2013/08/13/intrinsic/
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=K&space;=&space;\left&space;(&space;\begin{array}{&space;c&space;c&space;c}&space;f_x&space;&&space;s&space;&&space;x_0&space;\\&space;0&space;&&space;f_y&space;&&space;y_0&space;\\&space;0&space;&&space;0&space;&&space;1&space;\\&space;\end{array}&space;\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?K&space;=&space;\left&space;(&space;\begin{array}{&space;c&space;c&space;c}&space;f_x&space;&&space;s&space;&&space;x_0&space;\\&space;0&space;&&space;f_y&space;&&space;y_0&space;\\&space;0&space;&&space;0&space;&&space;1&space;\\&space;\end{array}&space;\right&space;)" title="K = \left ( \begin{array}{ c c c} f_x & s & x_0 \\ 0 & f_y & y_0 \\ 0 & 0 & 1 \\ \end{array} \right )" /></a>
-*Focal Length* given by  $f_x$,  $f_y$
-*Principal Point Offset* given by  $x_0$,  $y_0$
+
+*Focal Length* given by  <img src="https://latex.codecogs.com/gif.latex?f_z " /> , <img src="https://latex.codecogs.com/gif.latex?f_y " /> 
+
+*Principal Point Offset* given by  <img src="https://latex.codecogs.com/gif.latex?x_0 " /> ,  <img src="https://latex.codecogs.com/gif.latex?y_0 " /> 
 
 **Description of Camera Extrinsic Matricies:**
 http://ksimek.github.io/2012/08/22/extrinsic/
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=[&space;R&space;\,&space;|\,&space;\boldsymbol{t}]&space;=&space;\left[&space;\begin{array}{ccc|c}&space;r_{1,1}&space;&&space;r_{1,2}&space;&&space;r_{1,3}&space;&&space;t_1&space;\\&space;r_{2,1}&space;&&space;r_{2,2}&space;&&space;r_{2,3}&space;&&space;t_2&space;\\&space;r_{3,1}&space;&&space;r_{3,2}&space;&&space;r_{3,3}&space;&&space;t_3&space;\\&space;\end{array}&space;\right]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?[&space;R&space;\,&space;|\,&space;\boldsymbol{t}]&space;=&space;\left[&space;\begin{array}{ccc|c}&space;r_{1,1}&space;&&space;r_{1,2}&space;&&space;r_{1,3}&space;&&space;t_1&space;\\&space;r_{2,1}&space;&&space;r_{2,2}&space;&&space;r_{2,3}&space;&&space;t_2&space;\\&space;r_{3,1}&space;&&space;r_{3,2}&space;&&space;r_{3,3}&space;&&space;t_3&space;\\&space;\end{array}&space;\right]" title="[ R \, |\, \boldsymbol{t}] = \left[ \begin{array}{ccc|c} r_{1,1} & r_{1,2} & r_{1,3} & t_1 \\ r_{2,1} & r_{2,2} & r_{2,3} & t_2 \\ r_{3,1} & r_{3,2} & r_{3,3} & t_3 \\ \end{array} \right]" /></a>
 
-*Rotational Matrix* given by $R$
-*Translational Vector* given by $t$
+*Rotational Matrix* given by - <img src="https://latex.codecogs.com/gif.latex?R " /> 
+*Translational Vector* given by <img src="https://latex.codecogs.com/gif.latex?t " /> 
 
 *Note: We add a fourth row in our extrinsic matrix to make it a 4x4 matrix. The fourth row corresponds to the 4th row of a 4x4 identity matrix.*
 
