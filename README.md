@@ -45,3 +45,7 @@ Finally we use `draw_geometries` to show the result of voxel carving.
 
 *Note: `draw_geometries` did not work on Mac with pip install of Open3D, it worked on Debian Linux though.*
 
+### Results
+
+![Alt Text](https://github.com/cranberrymuffin/voxel-carving/blob/main/results/Large%20GIF%20(802x626).gif)
+
