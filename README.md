@@ -38,10 +38,13 @@ So for us, we used a 2x2x2 cubic voxel dense, the images we were given were 640 
 
 We also used Open3D to do the carving. To implement the carving we created a silhouette and grabbed the camera parameters for each image, and passed them to the `carve_silhouette` method.
 
-(http://www.open3d.org/docs/0.8.0/python_api/open3d.geometry.VoxelGrid.html)
+(Setting Camera Params- http://www.open3d.org/docs/release/python_api/open3d.camera.PinholeCameraParameters.html)
+
+(Creating Voxel Dense and Carving- http://www.open3d.org/docs/0.8.0/python_api/open3d.geometry.VoxelGrid.html)
 
 Finally we use `draw_geometries` to show the result of voxel carving. 
-(http://www.open3d.org/docs/latest/python_api/open3d.visualization.html)
+
+(Displaying- http://www.open3d.org/docs/latest/python_api/open3d.visualization.html)
 
 *Note: `draw_geometries` did not work on Mac with pip install of Open3D, it worked on Debian Linux though.*
 
