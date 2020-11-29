@@ -6,7 +6,7 @@ Plaster reproduction of Temple of the Dioskouroi from Middlebury Multi-View Ster
 Images captured on a Stanford Spherical Gantry (http://graphics.stanford.edu/projects/gantry/) and camera intrinsic and extrinsic matricies accompany each shot.
 
 ### Camera Calibration Parameters
-We are given Matricies K containing info about the x and y focal length of the camera, along with the principal offset (x and y), R the rotation matrix, and t the translation matrix along with our images.
+We are given Matricies K containing info about the x and y focal length of the camera, along with the principal offset (x and y), R the rotation matrix, and t the translation vector along with our images.
 
 **Description of Camera Intrinsic Matricies:**
 http://ksimek.github.io/2013/08/13/intrinsic/
